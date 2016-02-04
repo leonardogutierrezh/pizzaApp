@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A717E06E1C6318F500ECFD61 /* ViewFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A717E06D1C6318F500ECFD61 /* ViewFinal.swift */; };
 		A79BE6CA1C5DB19000E0D742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79BE6C91C5DB19000E0D742 /* AppDelegate.swift */; };
 		A79BE6CC1C5DB19000E0D742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79BE6CB1C5DB19000E0D742 /* ViewController.swift */; };
 		A79BE6CF1C5DB19000E0D742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79BE6CD1C5DB19000E0D742 /* Main.storyboard */; };
 		A79BE6D11C5DB19100E0D742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79BE6D01C5DB19100E0D742 /* Assets.xcassets */; };
 		A79BE6D41C5DB19100E0D742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79BE6D21C5DB19100E0D742 /* LaunchScreen.storyboard */; };
+		A79BE6DC1C5EA9FF00E0D742 /* ViewMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79BE6DB1C5EA9FF00E0D742 /* ViewMasa.swift */; };
+		A79BE6DE1C5EB5FA00E0D742 /* ViewQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79BE6DD1C5EB5FA00E0D742 /* ViewQueso.swift */; };
+		A79BE6E01C60414300E0D742 /* ViewTopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79BE6DF1C60414300E0D742 /* ViewTopping.swift */; };
+		A79BE6E21C6091B800E0D742 /* ViewResultado.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79BE6E11C6091B800E0D742 /* ViewResultado.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A717E06D1C6318F500ECFD61 /* ViewFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFinal.swift; sourceTree = "<group>"; };
 		A79BE6C61C5DB19000E0D742 /* PizzaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79BE6C91C5DB19000E0D742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A79BE6CB1C5DB19000E0D742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		A79BE6D01C5DB19100E0D742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A79BE6D31C5DB19100E0D742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A79BE6D51C5DB19100E0D742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79BE6DB1C5EA9FF00E0D742 /* ViewMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMasa.swift; sourceTree = "<group>"; };
+		A79BE6DD1C5EB5FA00E0D742 /* ViewQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewQueso.swift; sourceTree = "<group>"; };
+		A79BE6DF1C60414300E0D742 /* ViewTopping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTopping.swift; sourceTree = "<group>"; };
+		A79BE6E11C6091B800E0D742 /* ViewResultado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewResultado.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				A79BE6D01C5DB19100E0D742 /* Assets.xcassets */,
 				A79BE6D21C5DB19100E0D742 /* LaunchScreen.storyboard */,
 				A79BE6D51C5DB19100E0D742 /* Info.plist */,
+				A79BE6DB1C5EA9FF00E0D742 /* ViewMasa.swift */,
+				A79BE6DD1C5EB5FA00E0D742 /* ViewQueso.swift */,
+				A79BE6DF1C60414300E0D742 /* ViewTopping.swift */,
+				A79BE6E11C6091B800E0D742 /* ViewResultado.swift */,
+				A717E06D1C6318F500ECFD61 /* ViewFinal.swift */,
 			);
 			path = PizzaApp;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79BE6E01C60414300E0D742 /* ViewTopping.swift in Sources */,
 				A79BE6CC1C5DB19000E0D742 /* ViewController.swift in Sources */,
+				A79BE6E21C6091B800E0D742 /* ViewResultado.swift in Sources */,
 				A79BE6CA1C5DB19000E0D742 /* AppDelegate.swift in Sources */,
+				A717E06E1C6318F500ECFD61 /* ViewFinal.swift in Sources */,
+				A79BE6DE1C5EB5FA00E0D742 /* ViewQueso.swift in Sources */,
+				A79BE6DC1C5EA9FF00E0D742 /* ViewMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = PizzaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uzeke.PizzaApp;
@@ -260,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = PizzaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uzeke.PizzaApp;
@@ -286,6 +308,7 @@
 				A79BE6DA1C5DB19100E0D742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
